@@ -1,0 +1,9 @@
+Selecting top level module Shifter
+@N: CG364 :"D:\Microsemi\projects\project2\Shifter\hdl\Shifter.v":19:7:19:13|Synthesizing module Shifter in library work.
+Running optimization stage 1 on Shifter .......
+Running optimization stage 2 on Shifter .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Microsemi\projects\project2\Shifter\synthesis\synwork\layer0.rt.csv
+

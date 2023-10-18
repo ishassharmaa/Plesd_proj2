@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>Counter16</design>
+	<target_verilog>D:\Microsemi\projects\project2\Counter\synthesis\Counter16.vm</target_verilog>
+</SynplifyOutput>

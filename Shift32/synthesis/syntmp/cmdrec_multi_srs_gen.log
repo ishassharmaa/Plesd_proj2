@@ -1,0 +1,7 @@
+D:\Microsemi\Libero_SoC\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\Microsemi\projects\project2\Shift32\synthesis\synwork\shift_reg32_comp.srs  -osyn  D:\Microsemi\projects\project2\Shift32\synthesis\synwork\shift_reg32_mult.srs  -log  D:\Microsemi\projects\project2\Shift32\synthesis\synlog\shift_reg32_multi_srs_gen.srr 
+relcom:..\..\..\..\..\Libero_SoC\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\shift_reg32_comp.srs -osyn ..\synwork\shift_reg32_mult.srs -log ..\synlog\shift_reg32_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\shift_reg32_comp.srs|io:i|time:1697646061|size:1431|exec:0|csum:972190E1B15FD889109EF9476986DF1A
+file:..\synwork\shift_reg32_mult.srs|io:o|time:1697646063|size:1187|exec:0|csum:
+file:..\synlog\shift_reg32_multi_srs_gen.srr|io:o|time:1697646063|size:1345|exec:0|csum:
+file:..\..\..\..\..\Libero_SoC\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

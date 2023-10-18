@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Microsemi\\projects\\project2\\Shift32\\synthesis\\synwork\\shift_reg32_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|D:\\Microsemi\\projects\\project2\\Shift32\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib|-v2001|-devicelib|D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"D:\\Microsemi\\projects\\project2\\Shift32\\hdl\\shift_reg32.v":1697608605
+0			"D:\Microsemi\projects\project2\Shift32\hdl\shift_reg32.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work shift_reg32 0

@@ -1,0 +1,29 @@
+#add_file options
+add_file -verilog "D:/Microsemi/projects/project2/Shifter/hdl/Shifter.v"
+add_file -fpga_constraint "D:/Microsemi/projects/project2/Shifter/designer/Shifter/synthesis.fdc"
+
+set_option -top_module Shifter
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S010
+set_option -speed_grade STD
+set_option -opcond COMTC
+set_option -vlog_std sysv
+set_option -write_verilog 0
+
+set_option -async_globalthreshold 12
+set_option -clock_globalthreshold 2
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -retiming 0
+set_option -automatic_compile_point 0
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "D:/Microsemi/projects/project2/Shifter/synthesis/Shifter.vm"

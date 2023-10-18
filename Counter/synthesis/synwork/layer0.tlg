@@ -1,0 +1,9 @@
+Selecting top level module Counter16
+@N: CG364 :"D:\Microsemi\projects\project2\Counter\hdl\Counter16.v":21:7:21:15|Synthesizing module Counter16 in library work.
+Running optimization stage 1 on Counter16 .......
+Running optimization stage 2 on Counter16 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\Microsemi\projects\project2\Counter\synthesis\synwork\layer0.rt.csv
+

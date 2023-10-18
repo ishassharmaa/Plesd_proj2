@@ -1,0 +1,43 @@
+#add_file options
+add_file -verilog "D:/Microsemi/projects/project2/Shift32/hdl/shift_reg32.v"
+add_file -fpga_constraint "D:/Microsemi/projects/project2/Shift32/designer/shift_reg32/synthesis.fdc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S010
+set_option -speed_grade STD
+set_option -opcond COMTC
+set_option -write_verilog 0
+set_option -async_globalthreshold 12
+set_option -clock_globalthreshold 2
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -retiming 0
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+project -result_file "D:/Microsemi/projects/project2/Shift32/synthesis/shift_reg32.vm"
+
+
+
+
+
+impl -active "synthesis"
