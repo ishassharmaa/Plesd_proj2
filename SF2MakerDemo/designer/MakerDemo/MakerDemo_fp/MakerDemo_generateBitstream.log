@@ -1,0 +1,10 @@
+Software Version: 12.900.20.24
+Opened 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\MakerDemo_fp\MakerDemo.pro'
+PDB file 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\MakerDemo.pdb' has been loaded successfully.
+DESIGN : MakerDemo;  CHECKSUM : D3F1;  PDB_VERSION : 1.9
+Successfully exported PPD file for currently secured device: 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\MakerDemo.ppd'; file programs Fabric.
+Fabric component bitstream digest: 53b5a89d725e45d51cee8a5f5aed42f1edb26cc0f322d68a481f20eb5817e48e
+Finished: Mon Oct 23 13:45:16 2023 (Elapsed time 00:00:04)
+
+Project saved.
+Project closed.

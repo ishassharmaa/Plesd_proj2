@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Fri Oct 20 11:24:53 2023
+Project   :  C:\Microsemi_Prj\SF2MakerDemo
+Component :  MakerDemo
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo/MakerDemo.v
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo/subsystem.bfm
+
