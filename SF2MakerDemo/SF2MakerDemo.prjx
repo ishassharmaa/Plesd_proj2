@@ -188,6 +188,11 @@ TIME="1697822532"
 SIZE="256"
 PARENT="<project>\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.cxf"
 ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1698090447"
+SIZE="1697"
+ENDFILE
 VALUE "<project>\component\work\MakerDemo\MakerDemo.cxf,actgen_cxf"
 STATE="utd"
 TIME="1698090450"
@@ -313,22 +318,22 @@ PARENT="<project>\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo.so,so"
 STATE="utd"
-TIME="1698076567"
+TIME="1698090240"
 SIZE="222"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo.vm,syn_vm"
 STATE="utd"
-TIME="1698076566"
-SIZE="39942"
+TIME="1698090239"
+SIZE="40942"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo_syn.prj,prj"
 STATE="utd"
-TIME="1698076567"
+TIME="1698090240"
 SIZE="3134"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1698076566"
+TIME="1698090239"
 SIZE="1102"
 ENDFILE
 ENDLIST
@@ -456,8 +461,8 @@ NAME="Synplify Pro"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=" -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -506,14 +511,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Memory Map:MakerDemo_DataSheet.xml
-HDL;constraint\io\user.pdc;0
-Constraint Manager;Constraint Manager;0
-SmartDesign;MakerDemo;0
-SmartDesign;DESIGN_FIRMWARE;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"

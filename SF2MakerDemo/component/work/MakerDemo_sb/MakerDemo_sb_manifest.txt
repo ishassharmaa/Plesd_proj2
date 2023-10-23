@@ -1,12 +1,14 @@
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
 
-Date      :  Fri Oct 20 11:22:18 2023
+Date      :  Mon Oct 23 16:29:37 2023
 Project   :  C:\Microsemi_Prj\SF2MakerDemo
 Component :  MakerDemo_sb
 Family    :  SmartFusion2
 
 
 HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/MakerDemo_sb.v
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/MakerDemo_sb.v
     C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/CCC_0/MakerDemo_sb_CCC_0_FCCC.v
     C:/Microsemi_Prj/SF2MakerDemo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
     C:/Microsemi_Prj/SF2MakerDemo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
@@ -23,6 +25,8 @@ HDL source files for Mentor Precision Synthesis tool:
     C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb_MSS/MakerDemo_sb_MSS_pre.v
 
 Stimulus files for all Simulation tools:
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
+    C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
     C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
     C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb_MSS/CM3_compile_bfm.tcl
     C:/Microsemi_Prj/SF2MakerDemo/component/work/MakerDemo_sb_MSS/user.bfm

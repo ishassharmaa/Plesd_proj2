@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
 
-Date      :  Fri Oct 20 11:22:15 2023
+Date      :  Mon Oct 23 16:29:35 2023
 Project   :  C:\Microsemi_Prj\SF2MakerDemo
 Component :  MakerDemo_sb_MSS
 Family    :  SmartFusion2

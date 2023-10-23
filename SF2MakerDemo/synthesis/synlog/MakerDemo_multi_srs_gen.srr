@@ -16,12 +16,13 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
 
 @N|Running in 64-bit mode
+File C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\MakerDemo_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 20 11:25:46 2023
+# Mon Oct 23 17:40:05 2023
 
 ###########################################################]

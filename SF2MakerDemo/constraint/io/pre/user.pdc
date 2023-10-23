@@ -6,7 +6,7 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ
 
-# Date generated: Fri Oct 20 11:29:59 2023 
+# Date generated: Mon Oct 23 17:46:10 2023 
 
 
 # 
@@ -73,6 +73,12 @@ set_io GPIO_7_M2F      \
     -DIRECTION OUTPUT
 
 
+set_io GPIO_8_F2M     \
+    -pinname 143      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
 
 # 
 # Dedicated Peripheral I/O Settings
@@ -90,4 +96,9 @@ set_io GPIO_7_M2F      \
 #Ports using Dedicated Pins
 
 #
+
+set_io DEVRST_N       \
+    -pinname 72       \
+    -DIRECTION INPUT
+
 

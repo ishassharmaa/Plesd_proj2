@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Oct 20 11:22:18 2023
+// Created by SmartDesign Mon Oct 23 16:29:37 2023
 // Version: v12.6 12.900.20.24
 //////////////////////////////////////////////////////////////////////
 
@@ -10,6 +10,7 @@ module MakerDemo_sb(
     // Inputs
     DEVRST_N,
     FAB_RESET_N,
+    GPIO_8_F2M,
     // Outputs
     FAB_CCC_GL0,
     FAB_CCC_LOCK,
@@ -31,6 +32,7 @@ module MakerDemo_sb(
 //--------------------------------------------------------------------
 input  DEVRST_N;
 input  FAB_RESET_N;
+input  GPIO_8_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
@@ -65,6 +67,7 @@ wire   GPIO_4_M2F_net_0;
 wire   GPIO_5_M2F_net_0;
 wire   GPIO_6_M2F_net_0;
 wire   GPIO_7_M2F_net_0;
+wire   GPIO_8_F2M;
 wire   INIT_DONE_net_0;
 wire   MakerDemo_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
 wire   MakerDemo_sb_MSS_TMP_0_MSS_RESET_N_M2F;
@@ -262,6 +265,7 @@ MakerDemo_sb_MSS MakerDemo_sb_MSS_0(
         .MCCC_CLK_BASE          ( FAB_CCC_GL0_net_0 ),
         .MCCC_CLK_BASE_PLL_LOCK ( FAB_CCC_LOCK_net_0 ),
         .MSS_RESET_N_F2M        ( CORERESETP_0_RESET_N_F2M ),
+        .GPIO_8_F2M             ( GPIO_8_F2M ),
         .FIC_2_APB_M_PREADY     ( VCC_net ), // tied to 1'b1 from definition
         .FIC_2_APB_M_PSLVERR    ( GND_net ), // tied to 1'b0 from definition
         .FIC_2_APB_M_PRDATA     ( FIC_2_APB_M_PRDATA_const_net_0 ), // tied to 32'h00000000 from definition

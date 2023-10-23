@@ -1,4 +1,4 @@
-# Mon Oct 23 13:43:57 2023
+# Mon Oct 23 17:40:05 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -26,10 +26,10 @@ See clock summary report "C:\Microsemi_Prj\SF2MakerDemo\synthesis\MakerDemo_scck
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
@@ -115,7 +115,7 @@ MakerDemo_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        MakerD
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Microsemi_Prj\SF2MakerDemo\synthesis\MakerDemo.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -134,9 +134,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 167MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 23 13:43:58 2023
+# Mon Oct 23 17:40:06 2023
 
 ###########################################################]

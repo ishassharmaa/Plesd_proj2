@@ -1,7 +1,7 @@
 C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  MakerDemo  -multisrs  C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\MakerDemo_comp.srs  -osyn  C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\MakerDemo_mult.srs  -log  C:\Microsemi_Prj\SF2MakerDemo\synthesis\synlog\MakerDemo_multi_srs_gen.srr 
 relcom:..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top MakerDemo -multisrs ..\synwork\MakerDemo_comp.srs -osyn ..\synwork\MakerDemo_mult.srs -log ..\synlog\MakerDemo_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\MakerDemo_comp.srs|io:i|time:1697822745|size:60563|exec:0|csum:3B29826728EEC1AACE9781EE79C32A59
-file:..\synwork\MakerDemo_mult.srs|io:o|time:1697822746|size:2218|exec:0|csum:
-file:..\synlog\MakerDemo_multi_srs_gen.srr|io:o|time:1697822746|size:1049|exec:0|csum:
+file:..\synwork\MakerDemo_comp.srs|io:i|time:1698104403|size:60636|exec:0|csum:D88DF4E9B2E635BC8578EB919C46F59C
+file:..\synwork\MakerDemo_mult.srs|io:o|time:1698104405|size:2242|exec:0|csum:
+file:..\synlog\MakerDemo_multi_srs_gen.srr|io:o|time:1698104405|size:1144|exec:0|csum:
 file:..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

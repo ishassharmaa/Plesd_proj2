@@ -14,8 +14,9 @@ SLE            3 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 9
-I/O primitives: 8
+I/O ports: 10
+I/O primitives: 9
+INBUF          1 use
 OUTBUF         8 uses
 
 

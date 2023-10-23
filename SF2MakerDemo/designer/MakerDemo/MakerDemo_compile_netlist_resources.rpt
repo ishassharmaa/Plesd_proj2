@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Mon Oct 23 13:44:03 2023
+Date: Mon Oct 23 17:40:11 2023
 
 Device Selection
 +--------------------------------+----------------+
@@ -40,8 +40,8 @@ Resource Usage
 | 4LUT                      | 0    | 12084 | 0.00       |
 | DFF                       | 3    | 12084 | 0.02       |
 | I/O Register              | 0    | 252   | 0.00       |
-| User I/O                  | 8    | 84    | 9.52       |
-| -- Single-ended I/O       | 8    | 84    | 9.52       |
+| User I/O                  | 9    | 84    | 10.71      |
+| -- Single-ended I/O       | 9    | 84    | 10.71      |
 | -- Differential I/O Pairs | 0    | 37    | 0.00       |
 | RAM64x18                  | 0    | 22    | 0.00       |
 | RAM1K18                   | 0    | 21    | 0.00       |
@@ -90,7 +90,7 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 0            | 0           | 0               |
+| Input I/O                     | 1            | 0           | 0               |
 | Output I/O                    | 8            | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
@@ -101,7 +101,7 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  0    |  8     |  0            |
+| LVCMOS25     |  2.50v |  N/A |  1    |  8     |  0            |
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources
@@ -125,6 +125,8 @@ High fanout nets
 +--------+---------+----------------------------------------------------------+
 | 2      | INT_NET | Net   : MakerDemo_sb_0/POWER_ON_RESET_N                  |
 |        |         | Driver: MakerDemo_sb_0/SYSRESET_POR                      |
+| 1      | INT_NET | Net   : GPIO_8_F2M_c                                     |
+|        |         | Driver: GPIO_8_F2M_ibuf                                  |
 | 1      | INT_NET | Net   : GPIO_0_M2F_c                                     |
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
 | 1      | INT_NET | Net   : GPIO_1_M2F_c                                     |
@@ -141,8 +143,6 @@ High fanout nets
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
 | 1      | INT_NET | Net   : GPIO_7_M2F_c                                     |
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : MakerDemo_sb_0/LOCK                              |
-|        |         | Driver: MakerDemo_sb_0/CCC_0/CCC_INST                    |
 +--------+---------+----------------------------------------------------------+
 
 High fanout nets (through buffer trees)
@@ -151,6 +151,8 @@ High fanout nets (through buffer trees)
 +--------+---------+----------------------------------------------------------+
 | 2      | INT_NET | Net   : MakerDemo_sb_0/POWER_ON_RESET_N                  |
 |        |         | Driver: MakerDemo_sb_0/SYSRESET_POR                      |
+| 1      | INT_NET | Net   : GPIO_8_F2M_c                                     |
+|        |         | Driver: GPIO_8_F2M_ibuf                                  |
 | 1      | INT_NET | Net   : GPIO_0_M2F_c                                     |
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
 | 1      | INT_NET | Net   : GPIO_1_M2F_c                                     |
@@ -167,7 +169,5 @@ High fanout nets (through buffer trees)
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
 | 1      | INT_NET | Net   : GPIO_7_M2F_c                                     |
 |        |         | Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : MakerDemo_sb_0/LOCK                              |
-|        |         | Driver: MakerDemo_sb_0/CCC_0/CCC_INST                    |
 +--------+---------+----------------------------------------------------------+
 

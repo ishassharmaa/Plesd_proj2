@@ -1,6 +1,6 @@
 set_component MakerDemo_sb_CCC_0_FCCC
 # Microsemi Corp.
-# Date: 2023-Oct-20 11:22:17
+# Date: 2023-Oct-23 16:29:36
 #
 
 create_clock -period 20 [ get_pins { CCC_INST/RCOSC_25_50MHZ } ]

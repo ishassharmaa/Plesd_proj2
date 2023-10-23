@@ -13,7 +13,7 @@ Hostname: HAMPTER
 
 Implementation : synthesis
 
-# Written on Mon Oct 23 13:43:58 2023
+# Written on Mon Oct 23 17:40:06 2023
 
 ##### DESIGN INFO #######################################################
 
@@ -58,6 +58,7 @@ p:GPIO_4_M2F
 p:GPIO_5_M2F
 p:GPIO_6_M2F
 p:GPIO_7_M2F
+p:GPIO_8_F2M
 
 
 Inapplicable constraints

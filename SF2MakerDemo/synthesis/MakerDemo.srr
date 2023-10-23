@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: HAMPTER
 
-# Mon Oct 23 13:43:56 2023
+# Mon Oct 23 17:40:02 2023
 
 #Implementation: synthesis
 
@@ -59,9 +59,12 @@ Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 202
 @I::"C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v" (library work)
 @I::"C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v" (library work)
 Verilog syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb\CCC_0\MakerDemo_sb_CCC_0_FCCC.v changed - recompiling
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v changed - recompiling
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS_syn.v changed - recompiling
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.v changed - recompiling
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v changed - recompiling
+File C:\Microsemi_Prj\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v changed - recompiling
 Selecting top level module MakerDemo
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
@@ -260,12 +263,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 97MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 23 13:43:57 2023
+# Mon Oct 23 17:40:03 2023
 
 ###########################################################]
 ###########################################################[
@@ -286,16 +289,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
 
 @N|Running in 64-bit mode
+File C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\layer0.srs changed - recompiling
 
-Linker output is up to date. No re-linking necessary
-
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 23 13:43:57 2023
+# Mon Oct 23 17:40:03 2023
 
 ###########################################################]
 
@@ -305,23 +306,45 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 30MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 23 13:43:57 2023
+# Mon Oct 23 17:40:04 2023
 
 ###########################################################]
+###########################################################[
 
-@A: multi_srs_gen output is up to date. No run necessary.
-To force a re-synthesis, select [Resynthesize All] in menu [Run].
-Click link to view previous log file.
-Multi-srs Generator Report
-@R:"C:\Microsemi_Prj\SF2MakerDemo\synthesis\synlog\MakerDemo_multi_srs_gen.srr"
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HAMPTER
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+File C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\MakerDemo_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 17:40:05 2023
+
+###########################################################]
 Premap Report
 
-# Mon Oct 23 13:43:57 2023
+# Mon Oct 23 17:40:05 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -349,10 +372,10 @@ See clock summary report "C:\Microsemi_Prj\SF2MakerDemo\synthesis\MakerDemo_scck
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
@@ -438,7 +461,7 @@ MakerDemo_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        MakerD
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Microsemi_Prj\SF2MakerDemo\synthesis\MakerDemo.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -457,15 +480,15 @@ Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 167MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 23 13:43:58 2023
+# Mon Oct 23 17:40:06 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Oct 23 13:43:58 2023
+# Mon Oct 23 17:40:06 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -490,10 +513,10 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 129MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 129MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
@@ -537,7 +560,7 @@ Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 @N: BN362 :"c:\microsemi_prj\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\microsemi_prj\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.sm0_state[6] (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 166MB)
 
 
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
@@ -618,7 +641,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
@@ -649,16 +672,16 @@ Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00
 
 Writing Analyst data base C:\Microsemi_Prj\SF2MakerDemo\synthesis\synwork\MakerDemo_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
 
 @W: MT246 :"c:\microsemi_prj\sf2makerdemo\component\work\makerdemo_sb\ccc_0\makerdemo_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock MakerDemo_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MakerDemo_sb_0.CCC_0.GL0_net.
@@ -666,7 +689,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Oct 23 13:44:00 2023
+# Timing report written on Mon Oct 23 17:40:08 2023
 #
 
 
@@ -786,10 +809,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
 
 ---------------------------------------
 Resource Usage Report for MakerDemo 
@@ -808,8 +831,9 @@ SLE            3 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 9
-I/O primitives: 8
+I/O ports: 10
+I/O primitives: 9
+INBUF          1 use
 OUTBUF         8 uses
 
 
@@ -828,9 +852,9 @@ Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 169MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 169MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 23 13:44:00 2023
+# Mon Oct 23 17:40:08 2023
 
 ###########################################################]

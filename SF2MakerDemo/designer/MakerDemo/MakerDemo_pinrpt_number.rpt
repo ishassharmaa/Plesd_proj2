@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Mon Oct 23 13:44:17 2023 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Mon Oct 23 17:46:31 2023 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v12.6
 -Version: 12.900.20.24
@@ -153,5 +153,5 @@ Number |Port       |Function                     |State      |I/O Std  |Directio
 140                 DNC                           Reserved    
 141                 DDRIO59NB0/GB4                Special     
 142                 DDRIO60NB0/CCC_NE1_CLKI3      Special     
-143                 DDRIO59PB0/GB0                Special     
+143     GPIO_8_F2M  DDRIO59PB0/GB0                Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 144                 DDRIO63PB0                    Unassigned  

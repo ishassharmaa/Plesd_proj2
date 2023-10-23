@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "Q-2020.03M-SP1"
 // Program "Synplify Pro", Mapper "map202003act, Build 160R"
-// Mon Oct 23 13:43:59 2023
+// Mon Oct 23 17:40:07 2023
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -53,7 +53,7 @@ wire GL3 ;
 	.Y(GL0_INST_1z),
 	.A(GL0_net)
 );
-//@12:143
+//@12:146
 // @5:20
   CCC CCC_INST (
 	.Y0(Y0),
@@ -282,7 +282,7 @@ output FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire GND ;
 wire VCC ;
-//@12:247
+//@12:250
 // @7:26
   RCOSC_25_50MHZ I_RCOSC_25_50MHZ (
 	.CLKOUT(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
@@ -299,6 +299,7 @@ endmodule /* MakerDemo_sb_FABOSC_0_OSC */
 module MakerDemo_sb_MSS (
   GL0_INST,
   CORERESETP_0_RESET_N_F2M,
+  GPIO_8_F2M_c,
   LOCK,
   GPIO_7_M2F_c,
   GPIO_6_M2F_c,
@@ -312,6 +313,7 @@ module MakerDemo_sb_MSS (
 ;
 input GL0_INST ;
 input CORERESETP_0_RESET_N_F2M ;
+input GPIO_8_F2M_c ;
 input LOCK ;
 output GPIO_7_M2F_c ;
 output GPIO_6_M2F_c ;
@@ -323,6 +325,7 @@ output GPIO_4_M2F_c ;
 output GPIO_3_M2F_c ;
 wire GL0_INST ;
 wire CORERESETP_0_RESET_N_F2M ;
+wire GPIO_8_F2M_c ;
 wire LOCK ;
 wire GPIO_7_M2F_c ;
 wire GPIO_6_M2F_c ;
@@ -602,7 +605,7 @@ wire SPI1_SS5_MGPIO18A_OE ;
 wire SPI1_SS6_MGPIO23A_OE ;
 wire SPI1_SS7_MGPIO24A_OE ;
 wire USBC_XCLK_OE ;
-// @9:227
+// @9:230
   MSS_010 MSS_ADLIB_INST (
 	.CAN_RXBUS_MGPIO3A_H2F_A(CAN_RXBUS_MGPIO3A_H2F_A),
 	.CAN_RXBUS_MGPIO3A_H2F_B(GPIO_3_M2F_c),
@@ -831,7 +834,7 @@ wire USBC_XCLK_OE ;
 	.MGPIO5A_F2H_GPIN(VCC),
 	.MGPIO6A_F2H_GPIN(VCC),
 	.MGPIO7A_F2H_GPIN(VCC),
-	.MGPIO8A_F2H_GPIN(VCC),
+	.MGPIO8A_F2H_GPIN(GPIO_8_F2M_c),
 	.MGPIO9A_F2H_GPIN(VCC),
 	.MMUART0_CTS_F2H_SCP(VCC),
 	.MMUART0_DCD_F2H_SCP(VCC),
@@ -1117,6 +1120,7 @@ module MakerDemo_sb (
   GPIO_5_M2F_c,
   GPIO_6_M2F_c,
   GPIO_7_M2F_c,
+  GPIO_8_F2M_c,
   DEVRST_N
 )
 ;
@@ -1128,6 +1132,7 @@ output GPIO_0_M2F_c ;
 output GPIO_5_M2F_c ;
 output GPIO_6_M2F_c ;
 output GPIO_7_M2F_c ;
+input GPIO_8_F2M_c ;
 input DEVRST_N ;
 wire GPIO_3_M2F_c ;
 wire GPIO_4_M2F_c ;
@@ -1137,6 +1142,7 @@ wire GPIO_0_M2F_c ;
 wire GPIO_5_M2F_c ;
 wire GPIO_6_M2F_c ;
 wire GPIO_7_M2F_c ;
+wire GPIO_8_F2M_c ;
 wire DEVRST_N ;
 wire POWER_ON_RESET_N ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
@@ -1145,31 +1151,32 @@ wire GL0_INST ;
 wire CORERESETP_0_RESET_N_F2M ;
 wire GND ;
 wire VCC ;
-// @12:288
+// @12:292
   SYSRESET SYSRESET_POR (
 	.POWER_ON_RESET_N(POWER_ON_RESET_N),
 	.DEVRST_N(DEVRST_N)
 );
-// @12:143
+// @12:146
   MakerDemo_sb_CCC_0_FCCC CCC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC),
 	.LOCK(LOCK),
 	.GL0_INST_1z(GL0_INST)
 );
-// @12:176
+// @12:179
   CoreResetP_Z1 CORERESETP_0 (
 	.CORERESETP_0_RESET_N_F2M(CORERESETP_0_RESET_N_F2M),
 	.GL0_INST(GL0_INST),
 	.POWER_ON_RESET_N(POWER_ON_RESET_N)
 );
-// @12:247
+// @12:250
   MakerDemo_sb_FABOSC_0_OSC FABOSC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
-// @12:260
+// @12:263
   MakerDemo_sb_MSS MakerDemo_sb_MSS_0 (
 	.GL0_INST(GL0_INST),
 	.CORERESETP_0_RESET_N_F2M(CORERESETP_0_RESET_N_F2M),
+	.GPIO_8_F2M_c(GPIO_8_F2M_c),
 	.LOCK(LOCK),
 	.GPIO_7_M2F_c(GPIO_7_M2F_c),
 	.GPIO_6_M2F_c(GPIO_6_M2F_c),
@@ -1190,6 +1197,7 @@ endmodule /* MakerDemo_sb */
 
 module MakerDemo (
   DEVRST_N,
+  GPIO_8_F2M,
   GPIO_0_M2F,
   GPIO_1_M2F,
   GPIO_2_M2F,
@@ -1201,6 +1209,7 @@ module MakerDemo (
 )
 ;
 input DEVRST_N ;
+input GPIO_8_F2M ;
 output GPIO_0_M2F ;
 output GPIO_1_M2F ;
 output GPIO_2_M2F ;
@@ -1210,6 +1219,7 @@ output GPIO_5_M2F ;
 output GPIO_6_M2F ;
 output GPIO_7_M2F ;
 wire DEVRST_N ;
+wire GPIO_8_F2M ;
 wire GPIO_0_M2F ;
 wire GPIO_1_M2F ;
 wire GPIO_2_M2F ;
@@ -1220,6 +1230,7 @@ wire GPIO_6_M2F ;
 wire GPIO_7_M2F ;
 wire GND ;
 wire VCC ;
+wire GPIO_8_F2M_c ;
 wire GPIO_0_M2F_c ;
 wire GPIO_1_M2F_c ;
 wire GPIO_2_M2F_c ;
@@ -1228,47 +1239,52 @@ wire GPIO_4_M2F_c ;
 wire GPIO_5_M2F_c ;
 wire GPIO_6_M2F_c ;
 wire GPIO_7_M2F_c ;
-// @13:30
+// @13:28
+  INBUF GPIO_8_F2M_ibuf (
+	.Y(GPIO_8_F2M_c),
+	.PAD(GPIO_8_F2M)
+);
+// @13:32
   OUTBUF GPIO_0_M2F_obuf (
 	.PAD(GPIO_0_M2F),
 	.D(GPIO_0_M2F_c)
 );
-// @13:31
+// @13:33
   OUTBUF GPIO_1_M2F_obuf (
 	.PAD(GPIO_1_M2F),
 	.D(GPIO_1_M2F_c)
 );
-// @13:32
+// @13:34
   OUTBUF GPIO_2_M2F_obuf (
 	.PAD(GPIO_2_M2F),
 	.D(GPIO_2_M2F_c)
 );
-// @13:33
+// @13:35
   OUTBUF GPIO_3_M2F_obuf (
 	.PAD(GPIO_3_M2F),
 	.D(GPIO_3_M2F_c)
 );
-// @13:34
+// @13:36
   OUTBUF GPIO_4_M2F_obuf (
 	.PAD(GPIO_4_M2F),
 	.D(GPIO_4_M2F_c)
 );
-// @13:35
+// @13:37
   OUTBUF GPIO_5_M2F_obuf (
 	.PAD(GPIO_5_M2F),
 	.D(GPIO_5_M2F_c)
 );
-// @13:36
+// @13:38
   OUTBUF GPIO_6_M2F_obuf (
 	.PAD(GPIO_6_M2F),
 	.D(GPIO_6_M2F_c)
 );
-// @13:37
+// @13:39
   OUTBUF GPIO_7_M2F_obuf (
 	.PAD(GPIO_7_M2F),
 	.D(GPIO_7_M2F_c)
 );
-// @13:82
+// @13:85
   MakerDemo_sb MakerDemo_sb_0 (
 	.GPIO_3_M2F_c(GPIO_3_M2F_c),
 	.GPIO_4_M2F_c(GPIO_4_M2F_c),
@@ -1278,6 +1294,7 @@ wire GPIO_7_M2F_c ;
 	.GPIO_5_M2F_c(GPIO_5_M2F_c),
 	.GPIO_6_M2F_c(GPIO_6_M2F_c),
 	.GPIO_7_M2F_c(GPIO_7_M2F_c),
+	.GPIO_8_F2M_c(GPIO_8_F2M_c),
 	.DEVRST_N(DEVRST_N)
 );
   GND GND_Z (

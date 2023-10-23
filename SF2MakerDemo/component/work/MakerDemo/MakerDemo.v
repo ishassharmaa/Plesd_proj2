@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Oct 20 11:24:52 2023
+// Created by SmartDesign Mon Oct 23 17:39:52 2023
 // Version: v12.6 12.900.20.24
 //////////////////////////////////////////////////////////////////////
 
@@ -9,6 +9,7 @@
 module MakerDemo(
     // Inputs
     DEVRST_N,
+    GPIO_8_F2M,
     // Outputs
     GPIO_0_M2F,
     GPIO_1_M2F,
@@ -24,6 +25,7 @@ module MakerDemo(
 // Input
 //--------------------------------------------------------------------
 input  DEVRST_N;
+input  GPIO_8_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
@@ -47,6 +49,7 @@ wire   GPIO_4_M2F_net_0;
 wire   GPIO_5_M2F_net_0;
 wire   GPIO_6_M2F_net_0;
 wire   GPIO_7_M2F_net_0;
+wire   GPIO_8_F2M;
 wire   MakerDemo_sb_0_POWER_ON_RESET_N;
 wire   GPIO_0_M2F_net_1;
 wire   GPIO_1_M2F_net_1;
@@ -83,6 +86,7 @@ MakerDemo_sb MakerDemo_sb_0(
         // Inputs
         .FAB_RESET_N      ( MakerDemo_sb_0_POWER_ON_RESET_N ),
         .DEVRST_N         ( DEVRST_N ),
+        .GPIO_8_F2M       ( GPIO_8_F2M ),
         // Outputs
         .POWER_ON_RESET_N ( MakerDemo_sb_0_POWER_ON_RESET_N ),
         .INIT_DONE        (  ),

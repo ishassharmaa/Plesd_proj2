@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Oct 20 11:22:15 2023
+// Created by SmartDesign Mon Oct 23 16:29:34 2023
 // Version: v12.6 12.900.20.24
 //////////////////////////////////////////////////////////////////////
 
@@ -11,6 +11,7 @@ module MakerDemo_sb_MSS(
     FIC_2_APB_M_PRDATA,
     FIC_2_APB_M_PREADY,
     FIC_2_APB_M_PSLVERR,
+    GPIO_8_F2M,
     MCCC_CLK_BASE,
     MCCC_CLK_BASE_PLL_LOCK,
     MSS_RESET_N_F2M,
@@ -39,6 +40,7 @@ module MakerDemo_sb_MSS(
 input  [31:0] FIC_2_APB_M_PRDATA;
 input         FIC_2_APB_M_PREADY;
 input         FIC_2_APB_M_PSLVERR;
+input         GPIO_8_F2M;
 input         MCCC_CLK_BASE;
 input         MCCC_CLK_BASE_PLL_LOCK;
 input         MSS_RESET_N_F2M;
@@ -82,6 +84,7 @@ wire          GPIO_4_M2F_net_0;
 wire          GPIO_5_M2F_net_0;
 wire          GPIO_6_M2F_net_0;
 wire          GPIO_7_M2F_net_0;
+wire          GPIO_8_F2M;
 wire          MCCC_CLK_BASE;
 wire          MCCC_CLK_BASE_PLL_LOCK;
 wire          MSS_RESET_N_F2M;
@@ -300,7 +303,7 @@ MSS_ADLIB_INST(
         .MGPIO5A_F2H_GPIN                        ( VCC_net ), // tied to 1'b1 from definition
         .MGPIO6A_F2H_GPIN                        ( VCC_net ), // tied to 1'b1 from definition
         .MGPIO7A_F2H_GPIN                        ( VCC_net ), // tied to 1'b1 from definition
-        .MGPIO8A_F2H_GPIN                        ( VCC_net ), // tied to 1'b1 from definition
+        .MGPIO8A_F2H_GPIN                        ( GPIO_8_F2M ),
         .MGPIO9A_F2H_GPIN                        ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_CTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_DCD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition

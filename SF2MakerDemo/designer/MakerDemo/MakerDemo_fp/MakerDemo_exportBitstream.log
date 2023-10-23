@@ -1,0 +1,18 @@
+Software Version: 12.900.20.24
+Opened 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\MakerDemo_fp\MakerDemo.pro'
+PDB file 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\MakerDemo.pdb' has been loaded successfully.
+DESIGN : MakerDemo;  CHECKSUM : C470;  PDB_VERSION : 1.9
+Successfully exported STAPL file: 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.stp'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Mon Oct 23 17:52:25 2023 (Elapsed time 00:00:04)
+
+Successfully exported PPD file for currently secured device: 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.ppd'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Mon Oct 23 17:52:30 2023 (Elapsed time 00:00:05)
+
+Successfully exported DirectC file: 'C:\Microsemi_Prj\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.dat'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Mon Oct 23 17:52:34 2023 (Elapsed time 00:00:04)
+
+Project saved.
+Project closed.

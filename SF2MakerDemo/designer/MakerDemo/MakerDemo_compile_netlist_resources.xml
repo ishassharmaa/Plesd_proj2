@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Mon Oct 23 13:44:03 2023
+<text>Date: Mon Oct 23 17:40:11 2023
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -124,15 +124,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>8</cell>
+ <cell>9</cell>
  <cell>84</cell>
- <cell>9.52</cell>
+ <cell>10.71</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>8</cell>
+ <cell>9</cell>
  <cell>84</cell>
- <cell>9.52</cell>
+ <cell>10.71</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -313,7 +313,7 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>0</cell>
+ <cell>1</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -356,7 +356,7 @@
  <cell>LVCMOS25</cell>
  <cell> 2.50v</cell>
  <cell> N/A</cell>
- <cell> 0</cell>
+ <cell> 1</cell>
  <cell> 8</cell>
  <cell> 0</cell>
 </row>
@@ -412,6 +412,16 @@
 <row>
  <cell>1</cell>
  <cell>INT_NET</cell>
+ <cell>Net   : GPIO_8_F2M_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_8_F2M_ibuf</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
  <cell>Net   : GPIO_0_M2F_c</cell>
 </row>
 <row>
@@ -488,16 +498,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST</cell>
-</row>
-<row>
- <cell>1</cell>
- <cell>INT_NET</cell>
- <cell>Net   : MakerDemo_sb_0/LOCK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: MakerDemo_sb_0/CCC_0/CCC_INST</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -520,6 +520,16 @@
 <row>
  <cell>1</cell>
  <cell>INT_NET</cell>
+ <cell>Net   : GPIO_8_F2M_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_8_F2M_ibuf</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
  <cell>Net   : GPIO_0_M2F_c</cell>
 </row>
 <row>
@@ -596,16 +606,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: MakerDemo_sb_0/MakerDemo_sb_MSS_0/MSS_ADLIB_INST</cell>
-</row>
-<row>
- <cell>1</cell>
- <cell>INT_NET</cell>
- <cell>Net   : MakerDemo_sb_0/LOCK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: MakerDemo_sb_0/CCC_0/CCC_INST</cell>
 </row>
 </table>
 </doc>
